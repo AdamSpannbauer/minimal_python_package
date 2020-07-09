@@ -14,4 +14,4 @@ def square_perimeter(a):
     :param a: length of square legs
     :return: perimeter of square
     """
-    return rect_perimeter(w, h)
+    return rect_perimeter(a, a)

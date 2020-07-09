@@ -14,4 +14,4 @@ def square_area(a):
     :param a: length of square legs
     :return: area of square
     """
-    return rect_area(w, h)
+    return rect_area(a, a)
