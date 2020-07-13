@@ -77,7 +77,7 @@ I'll default to [this resource](https://packaging.python.org/tutorials/packaging
 * Add a new file to the package to hold helper functions for calculating `volume` of some shapes (rectanglur prism, cube, sphere, etc.)
   * Add an example of using these functions to `example_using_pkg.py`
 * Add a `Rectangle` class ([An intro to writing classes](https://www.w3schools.com/python/python_classes.asp))
-  * In your classes `__init__` method, store width, height, area, and perimeter as instance variables (use the packages functions for area & perimeter).
+  * In your class's `__init__` method, store width, height, area, and perimeter as instance variables (use the packages functions for area & perimeter).
   * Add a method called `transpose` that swaps the width and height attributes (i.e. if `w=2` and `h=3`; this method should change it so that `w=3` and `h=2`)
   * Add an example of using this class.  In the example, print out the attributes you added to ensure they're correct.
 
