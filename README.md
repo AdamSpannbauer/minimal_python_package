@@ -1,10 +1,21 @@
 # minimal_python_package
 
+Who is this for:
+
+* You know how to write python code
+* You know how to write python functions
+* You want to know how to write python packages and you're more of a do-er than a reader
+
+README Outline:
+* [Overview and usage](#overview-and-usage): proving that this repo holds an installable & functional package
+* [More on packages](#more-on-packages): Very brief writeups on python package concepts shown in this repo
+* [Practice prompts](#practice-prompts): Prompts for how to practice packages using this repo.  Extend and create.
+
 ## Overview and usage
 
 ### Installation
 
-*The package itself isn't too useful.  So these instructions are more to show that this does repo does hold everything for an installable, usable, & functional package.*
+*The package itself isn't too useful.  So these instructions are more to show that this repo does hold everything for an installable, usable, & functional package.*
 
 The package in this repo can be installed with:
 
@@ -26,7 +37,9 @@ The file `example_using_pkg.py` shows how we can import and use functions from t
 
 ### What makes a package?
 
-`__init__.py` is the magic sauce to change a directory of Python files into a package.  For instance, the IDE PyCharm has an option to create a new Python Package, and this option creates a directory with a single file in it, `__init__.py`.
+`__init__.py` is the magic sauce to change a directory of Python files into a package.  For instance, the IDE PyCharm has an option to create a new Python Package, and this option creates a directory with a single file in it, `__init__.py`.  In this repo, the package is the directory `my_pkg`, take a second to look in the folder and the files' contents.  We have 2 files containing functions and then the good ole `__init__.py`.
+
+In the `__init__.py` we can specify how users can reach our functionality.  For example, core functionality might be listed out here so users can access easier.  In this package the area functions might be considered more core because they're listed in `__init__.py`.  Note in `example_using_pkg.py` how this effects how we interact with the area vs perimeter functions.
 
 ### Importing code
 
@@ -72,7 +85,7 @@ I'll default to [this resource](https://packaging.python.org/tutorials/packaging
 
 1. Make up what your package will do (start with something not too useful)
    * One dumb idea that fits the bill is a meme generator package with functions like:
-     * spongebob_text()` that will convert inputted text to alternating capitilization (i.e. `"like this you see"` -> `"LiKe ThIs YoU sEe"`)`
+     * `spongebob_text()` that will convert inputted text to alternating capitilization (i.e. `"like this you see"` -> `"LiKe ThIs YoU sEe"`)
      * `top_bottom_text()` that takes in arguments for top/bottom text and makes the text all caps, prints out the top text, prints out whitespace, and then prints out bottom text.  Default the `top_text` argument to `"TOP TEXT"`; default the `bottom_text` argument to `"BOTTOM TEXT"`
 
 2. Create a new GitHub repo to hold your package (create it with a python `.gitignore`, `LICENSE`, and `README.md`)
