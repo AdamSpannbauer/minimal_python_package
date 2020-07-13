@@ -53,3 +53,40 @@ This file is what leads our package to be easily installed with `pip`.  It conta
 ### Distributing packages (aka "how do i upload my package to pypi so anyone can install it"?)
 
 I'll default to [this resource](https://packaging.python.org/tutorials/packaging-projects/#generating-distribution-archives).
+
+## Practice Prompts
+
+### Modifying / Extending this package
+
+* Add the functions for the area & perimeter of a circle
+  * Add the area function to `__init__.py` in the same way the other area functions have been done
+  * Add an example of using these functions to `example_using_pkg.py`
+* Add a new file to the package to hold helper functions for calculating `volume` of some shapes (rectanglur prism, cube, sphere, etc.)
+  * Add an example of using these functions to `example_using_pkg.py`
+* Add a `Rectangle` class ([An intro to writing classes](https://www.w3schools.com/python/python_classes.asp))
+  * In your classes `__init__` method, store width, height, area, and perimeter as instance variables (use the packages functions for area & perimeter).
+  * Add a method called `transpose` that swaps the width and height attributes (i.e. if `w=2` and `h=3`; this method should change it so that `w=3` and `h=2`)
+  * Add an example of using this class.  In the example, print out the attributes you added to ensure they're correct.
+
+### Creating a package from scratch following this architecture
+
+1. Make up what your package will do (start with something not too useful)
+   * One dumb idea that fits the bill is a meme generator package with functions like:
+     * spongebob_text()` that will convert inputted text to alternating capitilization (i.e. `"like this you see"` -> `"LiKe ThIs YoU sEe"`)`
+     * `top_bottom_text()` that takes in arguments for top/bottom text and makes the text all caps, prints out the top text, prints out whitespace, and then prints out bottom text.  Default the `top_text` argument to `"TOP TEXT"`; default the `bottom_text` argument to `"BOTTOM TEXT"`
+
+2. Create a new GitHub repo to hold your package (create it with a python `.gitignore`, `LICENSE`, and `README.md`)
+3. Clone your repo to begin working
+4. Create the package following the structure laid out in this repo
+   * [ ] Package itself including:
+     * [ ] code
+     * [ ] `__init__.py`
+   * [ ] `requirements.txt`
+   * [ ] `setup.py`
+
+5. Push the code to GitHub
+6. Test out installing and using your package
+
+-----
+
+Message me by opening up an issue / email / other means if you know other ways to contact me.  No promises I'll be able to answer everything in a timely manner (or at all), but I'd like to think I'll do my best to help you out with any problems.
