@@ -102,4 +102,4 @@ I'll default to [this resource](https://packaging.python.org/tutorials/packaging
 
 -----
 
-Message me by opening up an issue / email / other means if you know other ways to contact me.  No promises I'll be able to answer everything in a timely manner (or at all), but I'd like to think I'll do my best to help you out with any problems.
+Stuck? Want to discuss some ideas? Message me by: opening up an issue, email, or other means if you know other ways to contact me.  No promises I'll be able to answer everything in a timely manner (or at all), but I'd like to think I'll do my best to help you out with any problems.
