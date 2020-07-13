@@ -7,8 +7,8 @@ Who is this for:
 * 🙋‍♂️ You want to know how to write python packages and you're more of a doer than a reader
 
 README Outline:
-* ⬇️ [Overview and usage](#overview-and-usage): proving that this repo holds an installable & functional package
-* 📄 [More on packages](#more-on-packages): Very brief writeups on python package concepts shown in this repo
+* ⬇️ [Overview and usage](#overview-and-usage): Proving that this repo holds an installable & functional package.
+* 📄 [More on packages](#more-on-packages): Very brief writeups & resource links to address python package concepts shown in this repo.
 * 🏋️ [Practice prompts](#practice-prompts): Prompts for how to practice packages using this repo.  Extend and create.
 
 ## Overview and usage
