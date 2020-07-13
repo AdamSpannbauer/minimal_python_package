@@ -1,15 +1,15 @@
-# minimal_python_package
+# minimal_python_package 📦 🐍
 
 Who is this for:
 
-* You know how to write python code
-* You know how to write python functions
-* You want to know how to write python packages and you're more of a do-er than a reader
+* 🙋 You know how to write python code
+* 🙋‍♀️ You know how to write python functions
+* 🙋‍♂️ You want to know how to write python packages and you're more of a doer than a reader
 
 README Outline:
-* [Overview and usage](#overview-and-usage): proving that this repo holds an installable & functional package
-* [More on packages](#more-on-packages): Very brief writeups on python package concepts shown in this repo
-* [Practice prompts](#practice-prompts): Prompts for how to practice packages using this repo.  Extend and create.
+* ⬇️ [Overview and usage](#overview-and-usage): proving that this repo holds an installable & functional package
+* 📄 [More on packages](#more-on-packages): Very brief writeups on python package concepts shown in this repo
+* 🏋️ [Practice prompts](#practice-prompts): Prompts for how to practice packages using this repo.  Extend and create.
 
 ## Overview and usage
 
